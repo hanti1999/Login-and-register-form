@@ -17,7 +17,7 @@ $(document).ready(function() {
     });
     
     // Xử lý sự kiện khi click vào nút đóng modal hoặc khoảng trống
-    $('.modal').click(function() {
+    $('.close').click(function() {
         $('.modal').hide();
     });
 });
