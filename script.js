@@ -20,4 +20,7 @@ $(document).ready(function() {
     $('.close').click(function() {
         $('.modal').hide();
     });
+    $('.modal-overlay').click(function() {
+        $('.modal').hide();
+    });
 });
