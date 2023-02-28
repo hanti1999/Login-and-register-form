@@ -4,7 +4,7 @@ $(document).ready(function() {
     
     // Xử lý sự kiện khi click vào nút Login
     $('#login-btn').click(function() {
-        $('.modal').show();
+        $('.modal').show().css("display","flex");
         $('.log-modal').show();
         $('.res-modal').hide();
     });
